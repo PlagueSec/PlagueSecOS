@@ -1,0 +1,78 @@
+# You always want those
+kali-linux-core
+kali-desktop-live
+kali-tools-vulnerability
+kali-tools-web
+kali-tools-database
+0trace
+arping
+cherrytree
+commix
+dirb
+dmitry
+dnsenum
+dnsmap
+dnsrecon
+dnstracer
+dnswalk
+dradis
+enum4linux
+fierce
+firewalk
+fping
+fragrouter
+ftester
+gobuster
+hping3
+ike-scan
+intrace
+irpas
+joomscan
+knockd
+lbd
+maltego
+masscan
+metagoofil
+nbtscan
+ncat
+netdiscover
+netmask
+nikto
+nmap
+onesixtyone
+openvas
+p0f
+recon-ng
+recordmydesktop
+smbmap
+smtp-user-enum
+snmpcheck
+squashfs-tools
+ssldump
+sslh
+sslscan
+sslyze
+swaks
+thc-ipv6
+theharvester
+tlssled
+twofi
+unicornscan
+urlcrazy
+wafw00f
+wfuzz
+wordlists
+xprobe
+zaproxy
+
+# Kali applications
+#<package>
+# You can customize the set of Kali metapackages (groups of tools) to install
+# For the complete list see: https://tools.kali.org/kali-metapackages
+# kali-linux-default
+# kali-linux-large
+# kali-linux-everything
+# kali-tools-top10
+
+# Graphical desktop
+kali-desktop-xfce
