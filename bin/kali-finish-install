@@ -45,6 +45,11 @@ END
     apt-get update
 }
 
+plank_theme() {
+    sudo mv /usr/share/PlagueSec-Dock-theme/dock.theme /usr/share/plank/themes/Default/dock.theme
+    sudo rm -r /usr/share/PlagueSec-Dock-theme
+}
+
 get_user_list() {
     for user in $(cd /home && ls); do
 	if ! getent passwd "$user" >/dev/null; then
@@ -88,5 +93,6 @@ configure_usergroups() {
 
 configure_sources_list
 wireless_adapter_compatibility
+plank_theme
 configure_zsh
 configure_usergroups
