@@ -48,6 +48,9 @@ END
 plank_theme() {
     sudo mv /usr/share/PlagueSec-Dock-theme/dock.theme /usr/share/plank/themes/Default/dock.theme
     sudo rm -r /usr/share/PlagueSec-Dock-theme
+    
+    # remove dock shadow on XFCE variant
+    sudo xfconf-query --channel=xfwm4 --property=/general/show_dock_shadow --type=bool --toggle
 }
 
 get_user_list() {
